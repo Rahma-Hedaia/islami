@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:islami/hadeth_details/Hadeth_name.dart';
+import 'package:islami/hadeth_tab/Hadeth_name.dart';
 import 'package:islami/hadeth_details/ItemHadeth.dart';
 
 class HadethDetails extends StatefulWidget {

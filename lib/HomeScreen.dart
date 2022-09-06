@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:islami/hadeth_tab/HadethTab.dart';
+import 'package:islami/hadeth_tab2/hadeth_tab2.dart';
 import 'package:islami/quran/QuranTab.dart';
 import 'package:islami/RadioTab.dart';
 import 'package:islami/TasbehTab.dart';
@@ -48,6 +49,8 @@ int currentIndex=0;
                     label: 'حديث'),
                 BottomNavigationBarItem(icon: ImageIcon(AssetImage('assets/images/ic_moshaf.png')),
                     label: 'قرآن'),
+                BottomNavigationBarItem(icon: ImageIcon(AssetImage('assets/images/ic_quran.png')),
+                    label: 'حديث'),
               ],
             ),
           ),
@@ -57,6 +60,6 @@ int currentIndex=0;
     );
   }
   List<Widget> tabs=[
-    RadioTab(),TasbehTab(),HadethTab(),QuranTab()
+    RadioTab(),TasbehTab(),HadethTab(),QuranTab(),Hadeth_Tab2()
   ];
 }
